@@ -1,41 +1,32 @@
-# Project Title
+#AryanToken
+A simple Ethereum smart contract for managing a custom token named Aryan (AYUSH).
 
-Simple overview of use/purpose.
-
-## Description
-
-An in-depth paragraph about your project and overview of use.
-
-## Getting Started
-
-### Installing
-
-* How/where to download your program
-* Any modifications needed to be made to files/folders
-
-### Executing program
-
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
-
-## Help
-
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
-
-## Authors
-
-Contributors names and contact info
-
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
+#Description
+This Solidity smart contract defines the AryanToken, which is a basic implementation resembling an ERC-20 token. It allows minting of new tokens and burning existing tokens based on specified conditions. The contract maintains records of token balances for each address and tracks the total token supply.
 
 
-## License
+#Installing
+To interact with this smart contract.
 
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+A development environment with a Solidity compiler (version 0.8.18 or compatible).
+Use Remix Online Ethereum IDE.
+An interface to interact with Ethereum contracts 
+
+#Executing program
+     To deploy and use the contract:
+
+i. Clone the repository or copy the Solidity code into your development environment.
+ii. Compile the Solidity code using your preferred Solidity compiler.
+iii. Deploy the compiled contract to an Ethereum network or local blockchain.
+
+
+#Help
+For any issues or questions:
+
+Double-check contract parameters and function calls for accurate execution.
+
+Authors
+[Ayush Aryan]
+[ayusharyan888@gmail.com]
+License
+This project is licensed under the MIT License.
